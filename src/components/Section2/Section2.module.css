@@ -1,0 +1,16 @@
+.section2{
+    background-color: white;
+    height: 285px;
+}
+.section2 .contentContainer{
+    height: 100%;
+    display: flex;
+    padding: 0px 46px;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .contentContainer .content{
+    width: 300px;
+    margin: 0 45px;
+    text-align: center;
+}

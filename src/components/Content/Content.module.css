@@ -1,0 +1,61 @@
+.section3{
+    width: 100%;
+    height: 1000px;
+    background-color: #AFC4A8;
+}
+.section3 .contentContainer{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .contentContainer .content{
+    width: 446px;
+    height: 315px;
+    background: white;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    border-radius: 41px;
+}
+.section3 .contentContainer .content .description{
+    margin: 46px;
+    display: flex;
+    flex-direction: column;
+}
+.section3 .contentContainer .content .description h1{
+    margin-bottom: 27px;
+    color: #051046;
+}
+.section3 .contentContainer .content .description h2{
+    margin-bottom: 28px;
+    color: #e24616;
+}
+.section3 .contentContainer .content .image {
+    margin: -39px 0px 0px 29px;
+}
+.section3 .contentContainer .content .description .desc{
+    letter-spacing: 0;
+    margin-bottom: 17px;
+    font-weight: 200;
+    text-align: justify;
+}
+.section3 .contentContainer .content .description .buttons{
+    position: relative;
+    margin-top: 10p;
+}
+.section3 .contentContainer .content .description .buttons button {
+    position: absolute;
+    top: 11px;
+    left: 81px;
+    padding: 12px;
+    border-radius: 34px;
+    background: white;
+    font-weight: bold;
+    box-shadow: 2px 3px 0px 0px rgb(0 0 0 / 75%);
+}
+.section3 .contentContainer .content .description .buttons button:hover{
+    box-shadow: 0px 0px 0px 0px;
+    border: 2px solid black;
+}
